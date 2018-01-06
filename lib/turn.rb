@@ -44,5 +44,6 @@ def turn(board)
     puts "invalid"
     turn(board)
   end
+  board = [" ", " ", " ", " ", " ", " ", " ",  "X"]
   display_board(board)
 end
