@@ -29,7 +29,7 @@ end
   end
 
 
-  def move(board, index, char)
+  def move(board, index, char = "X")
     board[index] = char
   end
 
@@ -44,6 +44,6 @@ def turn(board)
     puts "invalid"
     turn(board)
   end
-  board = [" ", " ", " ", " ", " ", " ", " ",  "X"]
+  
   display_board(board)
 end
